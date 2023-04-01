@@ -1,0 +1,820 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+nav{
+    width: 100%;
+    height: 7vmax;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 4vmax 8vmax;
+}
+
+nav > h1{
+    font-size: 4vmax;
+    font-weight: 900;
+    color: white;
+}
+
+span{
+    color:rgb(226, 132, 24) ;
+}
+
+.nav2{
+    height: 15%;
+    width: 50%;
+    color: white;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vmax 4vmax;
+    
+}
+
+.nav2 > h5{
+    color: rgb(194, 132, 18);
+    font-size: 1vmax;
+    /* cursor: pointer;
+    position: relative;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s; */
+}
+
+/* h5::before{
+    content: "";
+    width: 0%;
+    height: 7%;
+    bottom: 0%;
+    position: absolute;
+    background-color: red;
+    transition: 0.5s;
+}
+
+h5:hover::before{
+    width: 100%;
+} */
+
+.nav2 > h6{
+    font-size: 1vmax;
+}
+
+img{
+    margin-top: -1vmax;
+    margin-left: 33vmax;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box > h1{
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: 5vmax;
+}
+
+.box > P{
+    color: white;
+    font-size: 6vmax;
+    position: absolute;
+    top: 55%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.box  {
+    font-size: 5vamx;
+    color: rgb(143, 17, 38);
+}
+
+button{
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    top: 75%;
+    left: 33%;
+    font-size: 1.5vmax;
+    border-radius: 2vmax ;
+    border: 2.5px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 100;
+} 
+
+.buttons > button{
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    font-size: 1.5vmax;
+    color: rgb(211, 101, 11);
+    background-color: white;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+.box1{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box1 > .right{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(22, 22, 22);
+}
+
+.right > h1{
+     margin-top: 8vmax;
+     margin-left: 8vmax;
+    font-size: 6vmax;
+    font-weight: 900;
+    color: rgb(63, 63, 63);
+}
+
+.right > p{
+    margin-top: 5vmax;
+    margin-left: 8vmax;
+    color: white;
+}
+
+.right > h2{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 26vmax;
+    margin-top: -0.5%;
+}
+
+.right > .line{
+    width: 23vmax;
+    height: 0.8vmax;
+    background-color: rgb(36, 35, 35);
+    margin-left: 8vmax;
+    margin-top: 0.5vmax;
+    border-radius: 2vmax;
+}
+.line > .lines{
+    width: 20vmax;
+    height: 0.8vmax;
+    background-color: rgb(230, 142, 42);
+    border-radius: 2vmax;
+}
+
+.right > h6{
+    margin-left: 8vmax;
+    margin-top: 2vmax;
+    font-size: 15px;
+    color: white;
+}
+.right > h3{
+   font-size: 15px;
+   color: white;
+   position: absolute;
+   left: 23vmax;
+   margin-top: -1%;
+}
+
+.right > .line2{
+    width: 23vmax;
+    height: 0.8vmax;
+    background-color: rgb(36, 35, 35);
+    margin-left: 8vmax;
+    margin-top: 0.5vmax;
+    border-radius: 2vmax;
+}
+
+.line2 > .lines2{
+    width: 17vmax;
+    height: 0.8vmax;
+    background-color:rgb(236, 147, 45) ;
+    border-radius: 2vmax;
+}
+
+.right > h5{
+    font-size: 15px;
+    color: white;
+    margin-left: 8vmax;
+    margin-top: 2vmax;
+}
+.right > h4 {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 25vmax;
+    margin-top: -1%;
+}
+
+.right > .line3{
+     width: 23vmax;
+     height: 0.8vmax;
+     background-color: rgb(36, 35, 35) ;
+     margin-left: 8vmax;
+     margin-top: 0.5vmax;
+     border-radius: 2vmax;
+}
+
+.line3 > .lines3 {
+    width: 19vmax;
+    height: 0.8vmax;
+    background-color:rgb(224, 138, 40) ;
+    border-radius: 2vmax;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+.box1 > .bottom{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(153, 83, 83);
+    background-image: url(D.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+.box1 > .left{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(29, 28, 28);
+}
+
+.left > h5{
+    color: white;
+    margin-top: 8vmax;
+    margin-left: 1vmax;
+    letter-spacing: 0.8vmax;
+}
+.left > .l-left{
+    width: 25vmax;
+    height: 4.5vmax;
+    background-color:rgb(238, 149, 47) ;
+    margin-left:1vmax;
+    margin-top: 1vmax;
+}
+
+.l-left > h1{
+    color: white;
+    padding: 1vmax 1.5vmax;
+    letter-spacing: 0.4vmax;
+}
+
+.left > h4{
+    color: white;
+    margin-left: 1vmax;
+    margin-top: 2vmax;
+    font-size: 1.5vmax;
+}
+.left > p{
+    margin-left: 1vmax;
+    margin-top: 1vmax;
+    color: white;
+}
+.icon{
+    width: 25vmax;
+    height: 5vmax;
+    background-color:transparent;
+    margin-left: 1vmax;
+    margin-top: 4vmax;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-image: url(fac.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    
+}
+
+.icon > h6{
+    font-size: 1vmax;
+    color: rgba(177, 71, 9, 0.877);
+}
+.icon > .line{
+    width: 4.5vmax;
+    height: 0.3vmax;
+    background-color: white;
+    margin-left: 0.5vmax;
+
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+.box2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 10, 10);
+}
+
+.box2 > h1 {
+    color: rgb(51, 50, 50);
+    font-size: 6vmax;
+    position: absolute;
+    margin-top: 5vmax;
+    margin-left: 35vmax;
+    letter-spacing: 0.5vmax;
+}
+
+.box-s{
+    height: 50%;
+    width: 80%;
+    /* background-color:rgb(128, 120, 120); */
+    position: absolute;
+    margin-top: 18vmax;
+    margin-left: 9vmax;
+}   
+.box-s > .web{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    position: absolute;
+    /* top: 5vmax; */
+}
+
+.web > img{
+    width: 3vmax;
+    height: 3vmax;
+    position: absolute;
+    left: -25vmax;
+    top: 8vmax;
+}
+
+.web > h3{
+    position: absolute;
+    top: 11vmax;
+    left: 5vmax;
+    color: white;
+    letter-spacing: 0.2vmax;
+}
+
+.web > p{
+    position: absolute;
+    top: 12vmax;
+    padding: 2vmax 3vmax;
+    color: white;
+}
+.dev{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    position: absolute;
+    left: 21vmax; 
+}
+.dev > img{
+    width: 3vmax;
+    height: 3vmax;
+    position: absolute;
+    left: -25vmax;
+    top: 8vmax;
+}
+.dev > h3{
+    position: absolute;
+    top: 11vmax;
+    left: 5vmax;
+    color: white;
+    letter-spacing: 0.2vmax;
+}
+.dev > p{
+    position: absolute;
+    top: 12vmax;
+    padding: 2vmax 3vmax;
+    color: white;
+}
+.bran {
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    position: absolute;
+    left: 42vmax;
+}
+.bran > img{
+    width: 3vmax;
+    height: 3vmax;
+    position: absolute;
+    left: -25vmax;
+    top: 8vmax;
+}
+
+.bran > h3{
+    position: absolute;
+    top: 11vmax;
+    left: 6vmax;
+    color: white;
+    letter-spacing: 0.2vmax;
+}
+.bran > p{
+    position: absolute;
+    top: 12vmax;
+    padding: 2vmax 3vmax;
+    color: white;
+}
+
+.mark{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    position: absolute;
+    left: 63vmax;
+}
+
+.mark > img{
+    width: 3vmax;
+    height: 3vmax;
+    position: absolute;
+    left: -25vmax;
+    top: 8vmax;
+}
+
+.mark > h3{
+    position: absolute;
+    top: 11vmax;
+    left: 6vmax;
+    color: white;
+    letter-spacing: 0.2vmax;
+}
+.mark > p{
+    position: absolute;
+    top: 12vmax;
+    padding: 2vmax 3vmax;
+    color: white;
+}
+/* -------------------------------------------------------------------------------------------------------------------------- */
+.box3{
+    width: 100%;
+    height:200%;
+    background-color:rgb(17, 17, 17);
+    /* position: absolute; */
+}
+
+.box3 > h1{
+    color: rgb(51, 50, 50);
+    font-size: 6vmax;
+    position: absolute;
+    margin-top: 5vmax;
+    margin-left: 35vmax;
+    letter-spacing: 0.5vmax;
+}
+.box3 > .nav2{
+    width: 35vmax;
+    height: 6vmax;
+    background-color:transparent;
+    margin-top:15vmax ;
+    margin-left: 30vmax;
+    position: absolute;
+}
+
+.circle > h5{
+    width: 8vmax;
+    height: 3vmax;
+    background-color:rgb(238, 149, 47) ;
+    /* position: absolute; */
+    /* display: flex;
+    justify-content: space-between; */
+    align-items: center; 
+    border-radius: 1.5vmax;
+    /* margin-left: 1vmax; */
+}
+
+.box3 > .nav2 > h5{
+    color: white;
+    
+}
+.photo{
+    width: 80vmax;
+    height: 68vmax;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 22vmax;
+    margin-left: 9vmax;
+}
+
+.photo1{
+    width: 25vmax;
+    height: 20vmax;
+    /* background-color: blue; */
+    background-image: url(F.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo2{
+    width: 30vmax;
+    height: 23vmax;
+    /* background-color: blue; */
+    margin-left: -0.1vmax;
+    margin-top: 3vmax;
+    background-image: url(G.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo3{
+    width: 20vmax;
+    height: 19vmax;
+    /* background-color: blue; */
+    margin-top: 3vmax;
+    background-image: url(H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.photo4{
+    width: 28vmax;
+    height:22vmax ;
+    /* background-color: blue; */
+    margin-top: -68vmax;
+    margin-left: 28vmax;
+    background-image: url(A.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo5{
+    width: 22vmax;
+    height: 30vmax;
+    /* background-color: blue; */
+    margin-left: 58vmax;
+    margin-top: -22vmax;
+    background-image: url(R.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo6{
+    width: 25vmax;
+    height: 25vmax;
+    /* background-color: blue; */
+    margin-left: 32vmax;
+    margin-top: -6vmax;
+    background-image: url(U.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo7{
+    width: 22vmax;
+    height: 35vmax;
+    /* background-color: blue; */
+    margin-left: 58vmax;
+    margin-top: -16vmax;
+    background-image: url(Q.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo8{
+    width: 16vmax;
+    height: 18vmax;
+    /* background-color: blue; */
+    margin-left: 40vmax;
+    margin-top: -18vmax;
+    background-image: url(T.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo9{
+    width:17vmax;
+    height: 18vmax;
+    /* background-color: blue; */
+    margin-top: -18vmax;
+    margin-left: 21vmax;
+    background-image: url(L.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.box4{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    position: relative;
+}
+
+.box4 > h1{
+    color: rgb(37, 36, 36);
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    font-size: 6vmax;
+    font-weight: 900;
+}
+
+.pic{
+    width: 80vmax;
+    height: 25vmax;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 9vmax;
+    margin-top: 18vmax;
+    position: absolute;
+}
+.pic > .pic1{
+    width: 25vmax;
+    height: 25vmax;
+    /* background-color: blue; */
+    background-image: url(lif.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+}
+.pic1 > h6{
+    margin-left: 2vmax;
+    margin-top: 15vmax;
+    color: rgb(218, 163, 97);
+}
+.pic1 > p{
+    margin-left: 2vmax;
+    color: white;
+    margin-top: 1vmax;
+    font-size: 2vmax;
+}
+
+.pic > .pic2{
+    width: 25vmax;
+    height: 25vmax;
+    /* background-color: blue; */
+    position: absolute;
+    margin-left:27.5vmax;
+    /* margin-top: -25vmax; */
+    background-image: url(tea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pic2 > h6{
+    margin-left: 2vmax;
+    margin-top: 15vmax;
+    color: rgb(250, 188, 112);
+}
+
+.pic2 > P{
+    margin: 2vmax;
+    color: white;
+    margin-top: 1vmax;
+    font-size: 2vmax;
+}
+.pic > .pic3{
+    width: 25vmax;
+    height: 25vmax;
+    /* background-color: blue; */
+    /* margin-top: -25vmax; */
+    margin-left: 55vmax;
+    position: absolute;
+    background-image: url(bye.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pic3 > h6{
+    margin-left: 2vmax;
+    margin-top: 15vmax;
+    color: rgb(218, 172, 116);
+}
+
+.pic3 > p{
+    margin-left: 2vmax;
+    margin-top: 1vmax;
+    color: white;
+    font-size: 2vmax;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.box5{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(22, 21, 21);
+    position: absolute;
+}
+
+.box5 > h1{
+    color: rgb(61, 57, 57);
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    font-size: 6vmax;
+    font-weight: 900;
+}
+
+.content{
+    width: 25vmax;
+    height: 15vmax;
+    background-color:transparent;
+    margin-left: 9vmax;
+    margin-top: 23vmax;
+}
+
+.content > h5{
+    color: rgb(161, 94, 12);
+}
+
+.content > p{
+    color: white;
+}
+
+.name{
+    width: 50vmax;
+    height: 23vmax;
+    /* background-color: aqua; */
+    margin-left: 40vmax;
+    margin-top: -20vmax;
+    position: absolute;
+}
+
+.name > .names{
+    width: 24vmax;
+    height: 5vmax;
+    background-color: rgb(39, 36, 36);
+    border-radius: 2vmax ;
+    position: absolute;
+}
+
+.names > h3{
+    color: white;
+    margin-left: 2vmax;
+    margin-top: 1.5vmax;
+}
+.name  > .email{
+    width: 24vmax;
+    height: 5vmax;
+    background-color: rgb(39, 36, 36);
+    margin-left: 26vmax;
+    position: absolute;
+    border-radius: 2vmax;
+}
+.email > h3{
+    color: white;
+    margin-left: 2vmax;
+    margin-top: 1.5vmax;
+}
+.sub{
+    width: 50vmax;
+    height: 5vmax;
+    background-color: rgb(39, 36, 36);
+    margin-top: 6.5vmax;
+    border-radius: 2vmax;
+    position: absolute;
+}
+
+.sub > h3{
+    color: white;
+    margin-left: 2vmax;
+    margin-top: 1.5vmax;
+}
+
+.mes{
+    width: 50vmax;
+    height: 10vmax;
+    margin-top: 13vmax;
+    position: absolute;
+    background-color:rgb(39, 36, 36) ;
+    border-radius: 1vmax;
+}
+
+.mes > h3{
+    color: white;
+    margin-left: 2vmax;
+    margin-top: 1.5vmax;
+}
+.box5 > button{
+    margin-top: 6vmax;
+    margin-left: 42vmax;
+    background-color: rgb(196, 120, 27);
+    border: 0vmax;
+}
